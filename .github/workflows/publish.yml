@@ -24,7 +24,7 @@ jobs:
           cargo install wasm-bindgen-cli
       - name: Build website 💣
         run: |
-          cd projects/yew-katex-preview
+          cd projects/yew-aplayer-preview
           wasm-bindgen -V
           trunk -V
           trunk build --release

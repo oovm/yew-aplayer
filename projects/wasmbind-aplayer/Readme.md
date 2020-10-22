@@ -1,4 +1,4 @@
-# KaTeX Wasmbind
+# APlayer Wasmbind
 
 ## Basic
 
