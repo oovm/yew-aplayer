@@ -1,0 +1,17 @@
+[package]
+name = "yew-aplayer-preview"
+publish = false
+version = "0.1.0"
+authors = ["Aster <192607617@qq.com>"]
+license = "MPL-2.0"
+edition = "2018"
+
+[dependencies]
+yew = "0.17"
+yew-aplayer = {version = "0.1", path = "../yew-aplayer" }
+
+[dev-dependencies]
+
+
+[features]
+default = []

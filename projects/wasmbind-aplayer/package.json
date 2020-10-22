@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "node esbuild",
+        "test": "wee build && wasm-pack test --node"
+    },
+    "dependencies": {
+        "aplayer": "^1.10.1"
+    },
+    "devDependencies": {
+        "esbuild": "^0.7.17"
+    }
+}

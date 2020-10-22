@@ -1,0 +1,19 @@
+[package]
+name = "yew-aplayer"
+version = "0.1.0"
+authors = ["Aster <192607617@qq.com>"]
+description = "Render math with KaTeX in Yew!"
+repository = "https://github.com/GalAster/yew-flowchart.js"
+readme = "../../Readme.md"
+license = "MPL-2.0"
+edition = "2018"
+
+[dependencies]
+yew = "0.17"
+aplayer-wasmbind = {version = "0.2", path = "../wasmbind-aplayer" }
+
+[dev-dependencies]
+
+
+[features]
+default = []

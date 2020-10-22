@@ -1,0 +1,13 @@
+[workspace]
+members = ["projects/*"]
+default-members = [
+    "projects/wasmbind-aplayer",
+    "projects/yew-aplayer",
+    "projects/yew-aplayer-preview",
+]
+exclude = [
+    "projects/.DS_Store",
+]
+
+[profile.release]
+lto = true
