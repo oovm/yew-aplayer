@@ -9,9 +9,3 @@ edition = "2018"
 [dependencies]
 yew = "0.17"
 yew-aplayer = {version = "0.1", path = "../yew-aplayer" }
-
-[dev-dependencies]
-
-
-[features]
-default = []
